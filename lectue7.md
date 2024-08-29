@@ -62,6 +62,47 @@ console.log('Год:', date.Milliseconds());
 let date = new Date();
 console.log('Год:', date.getTime());
 ```
+### setFullYear(year, [month], [day]) — устанавливает год, месяц и день.
+```js
+const myDate = new Date();
+myDate.setFullYear(2025);
+console.log(myDate); // Дата с годом 2025
+```
+### setMonth(month) — устанавливает месяц (0 = январь, 11 = декабрь).
+```js
+myDate.setMonth(11); // Устанавливает декабрь
+console.log(myDate);
+```
+### setDate(day) — устанавливает день месяца.
+```js
+myDate.setHours(10); // Устанавливает 10 часов
+console.log(myDate);
+```
+### setHours(hours) — устанавливает часы.
+```js
+myDate.setHours(10); // Устанавливает 10 часов
+console.log(myDate);
+```
+### setMinutes(minutes) — устанавливает минуты.
+```js
+myDate.setMinutes(30); // Устанавливает 30 минут
+console.log(myDate);
+```
+### setSeconds(seconds) — устанавливает секунды.
+```js
+myDate.setSeconds(45); // Устанавливает 45 секунд
+console.log(myDate);
+```
+### setMilliseconds(milliseconds) — устанавливает миллисекунды.
+```js
+myDate.setMilliseconds(500); // Устанавливает 500 миллисекунд
+console.log(myDate);
+```
+### setTime(milliseconds) — устанавливает время в миллисекундах с 1 января 1970 года (Unix время).
+```js
+myDate.setTime(1600000000000); // Устанавливает время
+console.log(myDate);
+```
 # Map ()
 >Map в JavaScript — это встроенный объект, который представляет коллекцию ключ-значение. В отличие от обычных объектов (Object), где ключи могут быть только строками или символами, в Map ключами могут быть значения любого типа — строки, числа, объекты и даже другие функции.
 ## Основные особенности Map
